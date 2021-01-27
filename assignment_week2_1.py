@@ -1,3 +1,5 @@
+#upsample image program
+
 length,mul = map(int,input("길이와 배수를 입력하세요>").split())
 img=[[int(x) for x in input().split()] for y in range(length)]
 output=[[0]*length*mul for i in range(length*mul)]
